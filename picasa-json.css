@@ -1,0 +1,39 @@
+.widget_picasa_json ul.thumbs {
+	margin: 5px 0 0 0 !important;
+	padding: 0 !important;
+}
+
+.widget_picasa_json ul.thumbs li:before {
+	content: none !important;
+}
+.widget_picasa_json ul.thumbs li {
+	display: inline;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.widget_picasa_json ul.thumbs a, .widget_picasa_json ul.thumbs a:hover {
+	background: none;
+}
+
+.widget_picasa_json ul.thumbs a img {
+	background-color: #fff;
+	display: inline;
+	border: 1px solid #ccc;
+	padding: 3px;
+	margin: 0 3px 3px 0;
+}
+
+.widget_picasa_json ul.thumbs a:hover img {
+	border: 1px solid #555;
+}
+
+.widget_picasa_json ul.thumbs a.widget_picasa_json_more {
+	display: block;
+	text-decoration: none;
+	color: #999;
+	border: none;
+}
+
+.widget_picasa_json ul.thumbs a.widget_picasa_json_more:hover {
+	color: #555;
+}
